@@ -2,6 +2,7 @@
 Second project from the Computer Systems Design course of the Brno University of Technology, Faculty of Informational Technologies - VHDL Brainlove Interpreter
 
 - Brainlove Interpreter
+
 Please note that
 > This product includes software developed by the University of Technology, Faculty of Information Technology, Brno and its contributors.
 
