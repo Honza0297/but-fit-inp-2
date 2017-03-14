@@ -15,20 +15,21 @@ The *login.b* and *login-long.b* both contain code (the latter with comments) in
 
 The project was graded with following notes from Zdenek Vasicek:
 
+```
 Verification of the processor's functionality:
 
-  0. test program (BF)         result
-  1. ++++++++++                    ok
-  2. ----------                    ok
-  3. +>++>+++                      ok
-  4. <+<++<+++                     ok
-  5. .+.+.+.                       ok
-  6. ,+,+,+,                       ok
-  7. +$+++++++++++!                ok
-  8. +$>++++!                      ok
-  9. [........]test[.........]     ok
-  10. +++[.-]                      ok
-  11. +++++[>++[>+.<-]<-]          ok
+0. test program (BF)         result
+1. ++++++++++                    ok
+2. ----------                    ok
+3. +>++>+++                      ok
+4. <+<++<+++                     ok
+5. .+.+.+.                       ok
+6. ,+,+,+,                       ok
+7. +$+++++++++++!                ok
+8. +$>++++!                      ok
+9. [........]test[.........]     ok
+10. +++[.-]                      ok
+11. +++++[>++[>+.<-]<-]          ok
 
 Support of basic cycles: yes
 Support of nested cycles: yes
@@ -36,8 +37,9 @@ Support of nested cycles: yes
 
 Notes regarding implementation:
 
-  Processor does not respond to the signal EN
-  Incomplete sensitivity list; missing signals: DATA_RDATA, IN_DATA, tmp_signal
-  Possible problematic control of following signals: DATA_RDWR, wdata_selector
+Processor does not respond to the signal EN
+Incomplete sensitivity list; missing signals: DATA_RDATA, IN_DATA, tmp_signal
+Possible problematic control of following signals: DATA_RDWR, wdata_selector
+```
 
 **Total points for CPU implementation: 16 (out of 17)**
