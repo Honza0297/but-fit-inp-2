@@ -12,7 +12,13 @@ It is uploaded in form that was submitted for grading.
 
 The ```login.b``` and ```login-long.b``` both contain code (the latter with comments) in the language Brainlove, that the processor described in ```cpu.vhd``` is capable of interpreting. Brainlove is extension to the [Brainfuck] (https://en.wikipedia.org/wiki/Brainfuck) language featuring five new commands. Of those, the processor is capable of interpreting ```$``` and ```!``` commands that store and load the value of the current cell to and from ```TMP``` memory cell, respectively, in addition to all standard Brainfuck commands.
 
-**The processor does not support the (, ) and ~ commands**
+**The processor does not support following Brainlove commands as it was not specified in the assignement:**
+
+```
+(    while(!*ptr) { /* loop while *ptr == 0 */
+)    }
+~    break; /* break from the most inner loop */
+```
 
 The project was graded with following notes from Zdenek Vasicek:
 
