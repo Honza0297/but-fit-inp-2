@@ -1,6 +1,10 @@
 # but-fit-inp-2
 Second project from the Computer Systems Design course of the Brno University of Technology, Faculty of Informational Technologies - VHDL Brainlove Interpreter
 
+## Deprecated Repository
+
+This repo is deprecated in favor of the new [cumulative repository](https://github.com/martycagas/but-fit-projects). It remains undeleted due to the two forks existing for some reason. Any updates will be pushed to the beforementioned repository instead.
+
 ## Brainlove Interpreter
 
 Please note that
@@ -10,7 +14,7 @@ Project was derived from Zdenek Vasicek's template controlling the peripheral fe
 
 It is uploaded in form that was submitted for grading.
 
-The ```login.b``` and ```login-long.b``` both contain code (the latter with comments) in the language Brainlove, that the processor described in ```cpu.vhd``` is capable of interpreting. Brainlove is extension to the [Brainfuck] (https://en.wikipedia.org/wiki/Brainfuck) language featuring five new commands. Of those, the processor is capable of interpreting ```$``` and ```!``` commands that store and load the value of the current cell to and from ```TMP``` memory cell, respectively, in addition to all standard Brainfuck commands.
+The ```login.b``` and ```login-long.b``` both contain code (the latter with comments) in the language Brainlove, that the processor described in ```cpu.vhd``` is capable of interpreting. Brainlove is extension to the [Brainfuck](https://en.wikipedia.org/wiki/Brainfuck) language featuring five new commands. Of those, the processor is capable of interpreting ```$``` and ```!``` commands that store and load the value of the current cell to and from ```TMP``` memory cell, respectively, in addition to all standard Brainfuck commands.
 
 **The processor does not support following Brainlove commands as it was not specified in the assignement:**
 
